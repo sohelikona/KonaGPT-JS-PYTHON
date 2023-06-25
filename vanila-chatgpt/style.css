@@ -1,0 +1,110 @@
+* {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #343541; */
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 200px 0;
+
+}
+
+.side-bar {
+    /* background-color: #202123; */
+
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 244px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+input {
+    border: none;
+    background-color: rgba(255,255,255, 0.05);
+    width: 60vh;
+    font-size: 20px;
+    padding: 12px 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.05) 0 54px 55px,
+                rgba(0,0,0,0.05) 0 -12px 30px,
+                rgba(0,0,0,0.05) 0 4px 6px,
+                rgba(0,0,0,0.05) 0 12px 3px,
+                rgba(0,0,0,0.09) 0 -3px 5px;
+}
+
+input:focus {
+    outline: none;
+} 
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+
+.input-container #submit {
+    position: absolute;
+    right: 15px;
+    bottom: 65px;
+    cursor: pointer;
+}  
+
+button {
+    border: solid 0.5px rgba(255,255,255, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+} 
+
+nav {
+    border-top: solid 0.5px rgba(255,255,255, 0.5);
+    padding: 20px;
+    margin: 20px;
+}
+
+.history {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.history p {
+    cursor: pointer;
+}
